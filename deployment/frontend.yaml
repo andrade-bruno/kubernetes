@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-dp
+  namespace: default
+  labels:
+    app: frontend
+    type: frontend
+spec:
+  template:
+    metadata:
+      name: nginx-pod
+      labels:
+        app: frontend
+        type: frontend
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx:1.17
+  replicas: 6
+  selector:
+    matchLabels:
+      type: frontend
+  strategy:
+    type: Recreate
+      
