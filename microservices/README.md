@@ -53,6 +53,7 @@ replicaset.apps/worker-86f8f864d       1         1         0       13s
 
 `minikube service result --url -n vote`
 
-### Videos
+### Usage
 
-[Sample Video](assets/2025-07-28%23-21-28.mp4)
+https://github.com/user-attachments/assets/c8f37fd5-500a-470c-9dfc-0799d718f683
+
