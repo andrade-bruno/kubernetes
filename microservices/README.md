@@ -12,7 +12,7 @@ Here's a sample of the power of Kubernetes.
 
 ### Build
 
-Run `sh init.sh`
+Run `sh init.sh build`
 
 ### List Pods, Services and Deployments
 

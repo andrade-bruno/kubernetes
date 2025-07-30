@@ -15,7 +15,3 @@ build() {
 	kubectl create -f services/ --save-config
 	echo "\nK8S Voting App is up and running!\n"
 }
-
-restart_minikube
-sleep 1
-build
