@@ -1,3 +1,5 @@
+Full Qualified Domain Name (sample)
+
 kubernetes.default.svc.cluster.local
 
 kubernetes: Service name
